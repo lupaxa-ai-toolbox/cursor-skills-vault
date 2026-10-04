@@ -1,0 +1,14 @@
+---
+description: Store shared Cursor skills in the private cursor-skills vault
+alwaysApply: true
+---
+
+# cursor-skills vault
+
+New team skills go in the private skills vault at `skills/<name>/SKILL.md`.
+Do not leave a shared skill only in `~/.cursor/skills/`.
+
+Import with the engine's `scripts/import-skill.sh`, then run
+`scripts/sync-vault.sh` and `scripts/install-skills.sh`.
+
+If sync prints `remote is missing`, leave the commit local and say so.
